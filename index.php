@@ -2,7 +2,7 @@
 require_once("rb.php");
 R::setup();
 
-//R::wipe("request");
+//R::wipe("response");
 
 $requests = R::find('request');
 

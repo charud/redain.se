@@ -60,3 +60,55 @@ h1 a
     font-size: 14px;
     padding: 6px 12px;
 }
+
+.responseBox
+{
+    margin-top: 20px;
+}
+
+.responseBox ul
+{
+    margin: 0px;
+}
+
+.responseBox li
+{
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #f3f3f3;
+}
+
+.responseBox li p
+{
+    font-size: 14px;
+}
+
+.responseBox li.writeResponse
+{
+    height: 60px;
+    border: 1px solid #f3f3f3;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.responseBox .writeResponse input
+{
+    margin-top: 8px;
+    margin-left: 8px;
+    height: 38px;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    box-shadow: none;
+}
+
+.responseBox .writeResponse input:focus
+{
+    outline: none !important;
+}
+
+.responseBox .writeResponse button
+{
+    display: none;
+}

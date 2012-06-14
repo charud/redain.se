@@ -40,7 +40,24 @@
                 <img src="<?php echo $request->image; ?>" height="200" />
                 <h2><?php echo $request->text; ?></h2>
             </div>
+
+            <div class="span10 responseBox">
+                <ul>
+                    <li class="writeResponse">
+                        <form action="?id=<?php echo $request->id; ?>" method="POST">
+                            <input type="text" id="txtResponse" name="txtResponse" autofocus="autofocus" placeholder="Skriv tips   (Enter för att skicka)" />
+                            <button type="submit" class="btn">Skicka</button>
+                        </form>
+                    </li>
+
+                    <?php foreach($request->ownResponse as $response): ?>
+                        <li><?php echo $response->text; ?>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+
         </div>
+
 
     </div> 
 

@@ -1,0 +1,62 @@
+.requestTitle
+{
+    margin-top: 30px;
+}
+
+.requestTitle img
+{
+    margin-bottom: 15px;
+}
+
+.leftbar
+{
+    margin-top: 20px;
+}
+
+.recentBox
+{
+
+}
+
+h1 a 
+{
+    color: #333;
+    /*color: #08C;
+    color: #1B5580;*/
+}
+
+.recentBox h2
+{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.recentBox ul
+{
+    margin-top: 10px;
+}
+
+.recentBox li
+{
+    display: block;
+    height: 130px;
+    width: 160px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: none;
+}
+
+
+.recentBox li a
+{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    color: #333;
+    background-color: #CD4A38;
+    color: white;
+    line-height: 18px;
+    font-size: 14px;
+    padding: 6px 12px;
+}

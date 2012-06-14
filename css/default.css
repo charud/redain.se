@@ -135,6 +135,18 @@ h2
 
 @media (max-width: 780px)
 {
+    .header
+    {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .header h1
+    {
+        font-size: 30px;
+    }
+
     .uploadBox
     {
         background-color: #ccc;
@@ -173,7 +185,6 @@ h2
         line-height: 40px;
     }
 
-
     .searchbox input
     {   
         font-size: 14px;
@@ -189,4 +200,16 @@ h2
         display: block;
         clear: both;
     }
+
+    .recentBox li
+    {
+        display: block;
+        height: 130px;
+        width: 180px;
+        overflow: hidden;
+        font-size: 14px; 
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
 }

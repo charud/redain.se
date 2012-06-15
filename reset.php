@@ -40,7 +40,19 @@ $request->image = "http://designinsight.se/wp-content/uploads/2011/03/vardagsrum
 R::store($request);
 
 $request = R::dispense("request");
+$request->text = "Någon som kan tänka sig en passande hylla här?";
+$request->image = "http://www.lundfix.se/bilder/badrum_bild_4_stor.jpg";
+R::store($request);
+
+    $response = R::dispense("response");
+    $response->text = "Ikeas svarta skulle vara snygg: http://www.ikea.com/se/sv/catalog/products/S29885453";
+    $response->request = $request;
+    R::store($response);
+
+$request = R::dispense("request");
 $request->text = "Vill ha en passande stol här. Vilken tycker ni skulle fungera bäst?";
 $request->image = "http://cdn.freshome.com/wp-content/uploads/2008/04/living-room-modern.jpg";
 R::store($request);
+
+
 

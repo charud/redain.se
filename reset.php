@@ -36,6 +36,6 @@ $id = R::store($request);
 
 $request = R::dispense("request");
 $request->text = "Vill ha en passande stol här. Vilken tycker ni skulle fungera bäst?";
-$request->image = "http://designinsight.se/wp-content/uploads/2011/03/vardagsrum.jpg";
+$request->image = "http://cdn.freshome.com/wp-content/uploads/2008/04/living-room-modern.jpg";
 $id = R::store($request);
 

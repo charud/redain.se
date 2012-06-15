@@ -1,4 +1,7 @@
 <?php
+
+require_once("rb.php");
+
 if($_SERVER['SERVER_NAME'] == "local.redain.se")
 {
     R::setup();
@@ -31,4 +34,8 @@ $request->text = "En passande hylla ovanför min soffa";
 $request->image = "http://designinsight.se/wp-content/uploads/2011/03/vardagsrum.jpg";
 $id = R::store($request);
 
+$request = R::dispense("request");
+$request->text = "Vill ha en passande stol här. Vilken tycker ni skulle fungera bäst?";
+$request->image = "http://designinsight.se/wp-content/uploads/2011/03/vardagsrum.jpg";
+$id = R::store($request);
 

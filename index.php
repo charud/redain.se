@@ -1,6 +1,8 @@
 <?php
 require_once("rb.php");
 
+echo "Test";
+
 if($_SERVER['SERVER_NAME'] == "local.redain.se")
 {
     R::setup();

@@ -1,7 +1,15 @@
 <?php
 require_once("rb.php");
-R::setup();
+echo "Test";
 
+if($_SERVER['SERVER_NAME'] == "local.redain.se")
+{
+    R::setup();
+}
+else if($_SERVER['SERVER_NAME'] == "redain.orchestra.io/")
+{  
+    R::setup('mysql:host=a.db.shared.orchestra.io;dbname=db_f7ca8cba','user_f7ca8cba','El-Q,kRZ8klQ.a'); //mysql
+}
 //R::wipe("response");
 
 $requests = R::find('request');

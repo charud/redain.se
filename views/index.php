@@ -39,8 +39,6 @@
             <div class="span12 recentBox">
                 <h2>Nyligen sökta</h2>
                 <ul>
-                    <li style="background-image: url('http://julgran.erikolsson.se/upload/Sotmandeln_vardagsrum.JPG')"><a href="#">Vilken soffa ska jag ha till mitt hem?</a></li>
-                
                     <?php foreach($requests as $request): ?>
                         <li style="background-image: url('<?php echo $request->image; ?>')" onclick="window.location.href='/request.php?id=<?php echo $request->id; ?>'">
                             <a href="#"><?php echo $request->text; ?></a>

@@ -7,6 +7,7 @@
     <title>RedaIn - <?php echo $request->text; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100|Quicksand:300|Josefin+Sans:100|Exo:100|Raleway:100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/css/default.css">
     <link rel="stylesheet" type="text/css" href="/css/request.css">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
@@ -21,9 +22,8 @@
 
             <div class="span2 leftbar">
                 <h1><a href="/">redain.se</a></h1>
-
                 <div class="row">
-                    <div class="span12 recentBox">
+                    <div class="span12 recentBox visible-desktop">
                         <h2>Nyligen sökta</h2>
                         <ul>
                             <?php foreach($recentRequests as $recentRequest): ?>
@@ -34,7 +34,6 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
 
             <div class="span10 requestTitle">
@@ -57,7 +56,19 @@
                 </ul>
             </div>
 
+            <div class="span12 recentBox hidden-desktop">
+                <h2>Nyligen sökta</h2>
+                <ul>
+                    <?php foreach($recentRequests as $recentRequest): ?>
+                        <li style="background-image: url('<?php echo $recentRequest->image; ?>')" onclick="window.location.href='/request.php?id=<?php echo $recentRequest->id; ?>'">
+                            <a href="#"><?php echo $recentRequest->text; ?></a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+
         </div>
+
 
 
     </div> 

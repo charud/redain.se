@@ -9,6 +9,7 @@
     <title>RedaIn</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100|Quicksand:300|Josefin+Sans:100|Exo:100|Raleway:100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/css/default.css">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -24,7 +25,8 @@
         </div>
 
         <div class="row">
-            <div class="span2 offset0 uploadBox">
+           
+            <div class="span2 offset0 uploadBox visible-desktop">
                 <h2>Fotografi</h2>
                 <button id="btnUpload" class="btn">Bifoga bild</button>
             </div>
@@ -37,8 +39,13 @@
                         <button class="btn btn-large btn-success" type="submit">Sök</button>
                     </form>
             </div>
+
+            <div class="span2 offset0 uploadBox hidden-desktop">
+                <h2>Fotografi</h2>
+                <button id="btnUpload" class="btn">Bifoga bild</button>
+            </div>
+
         </div>
-    
 
         <div class="row">
             <div class="span12 recentBox">
@@ -52,7 +59,6 @@
                 </ul>
             </div>
         </div>
-
 
     </div> 
 

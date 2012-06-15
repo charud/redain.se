@@ -4,6 +4,15 @@
     padding: 10px; 
 }
 
+h1, h2
+{
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Raleway', cursive;*/
+}
+
 h1
 {
     font-size: 40px;
@@ -133,7 +142,7 @@ h2
     margin-left: 53px;
 }
 
-@media (max-width: 780px)
+@media (max-width: 767px)
 {
     .header
     {
@@ -159,6 +168,7 @@ h2
 
     .uploadBox h2
     {
+        font-size: 26px;
         margin-top: 10px;
         margin-left: 20px;
         margin-bottom: 0px;
@@ -166,7 +176,7 @@ h2
 
     .uploadBox .btn
     {
-        margin-top: 15px;
+        margin-top: 10px;
         margin-left: 20px;
     }
 
@@ -183,6 +193,9 @@ h2
     {
         font-size: 30px;
         line-height: 40px;
+        font-size: 27px;
+        margin-bottom: 10px;
+        line-height: 30px;
     }
 
     .searchbox input
@@ -205,11 +218,16 @@ h2
     {
         display: block;
         height: 130px;
-        width: 180px;
+        width: 160px;
         overflow: hidden;
-        font-size: 14px; 
         margin-bottom: 10px;
         margin-right: 10px;
+    }
+
+    .recentBox li a
+    {
+
+        font-size: 12px; 
     }
 
 }

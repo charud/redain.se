@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100|Quicksand:300|Josefin+Sans:100|Exo:100|Raleway:100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/css/default.css?1">
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css?1">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="//api.filepicker.io/v0/filepicker.js"></script>
 </head>

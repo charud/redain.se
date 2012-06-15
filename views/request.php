@@ -8,8 +8,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100|Quicksand:300|Josefin+Sans:100|Exo:100|Raleway:100' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="/css/default.css">
-    <link rel="stylesheet" type="text/css" href="/css/request.css">
+    <link rel="stylesheet" type="text/css" href="/css/default.css?1">
+    <link rel="stylesheet" type="text/css" href="/css/request.css?1">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>

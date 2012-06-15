@@ -1,6 +1,5 @@
 <?php
 require_once("rb.php");
-echo "Testar igen";
 
 if($_SERVER['SERVER_NAME'] == "local.redain.se")
 {
